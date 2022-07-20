@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.96 141.779">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 38.206px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: BebasNeueBold, Bebas Neue;
+      }
+
+      .cls-2 {
+        font-size: 21.299px;
+      }
+
+      .cls-4 {
+        font-size: 12.93px;
+        font-family: Helvetica;
+        letter-spacing: 0.03em;
+      }
+    </style>
+  </defs> 
+  <g id="Group_53" data-name="Group 53" transform="translate(-281.921 -285.753)">
+    <text id="Bake_Ry" data-name="Bake-Ry" class="cls-1" transform="translate(357.401 393.716)"><tspan x="-55.017" y="0">Bake - Ry</tspan></text>
+  </g>
+</svg>

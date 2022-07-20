@@ -1,0 +1,43 @@
+.card {
+    border-color: $card-border-color;
+    overflow: hidden;
+}
+
+.review-card {
+    position: relative;
+    text-align: center;
+
+    .review-title {
+        font-size: $review-title-font-size;
+    }
+
+    .review-subtitle {
+        font-size: $review-subtitle-font-size;
+        letter-spacing: $review-subtitle-spacing;
+        opacity: $review-subtitle-opacity;
+    }
+
+    .review-body {
+        position: relative;
+        padding: $review-body-padding;
+        border: $review-border-width solid $border-color;
+        border-top-color: $pink;
+        border-radius: $review-border-radius;
+        margin-top: $review-top-spacer;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            width: 24px;
+            height: 24px;
+            border-color: $pink;
+            border-radius: $review-border-radius 0 0 0 ;
+            border-style: solid;
+            border-width:  2px 0 0 2px;
+            transform: rotate(45deg) translateX(-50%);
+            background: $gray-800;
+        }
+    }
+}
